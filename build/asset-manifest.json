@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pavithranR.github.io/static/css/main.d8005adf.chunk.css",
+    "main.js": "/pavithranR.github.io/static/js/main.694771cf.chunk.js",
+    "main.js.map": "/pavithranR.github.io/static/js/main.694771cf.chunk.js.map",
+    "runtime-main.js": "/pavithranR.github.io/static/js/runtime-main.3062aa84.js",
+    "runtime-main.js.map": "/pavithranR.github.io/static/js/runtime-main.3062aa84.js.map",
+    "static/js/2.65c28803.chunk.js": "/pavithranR.github.io/static/js/2.65c28803.chunk.js",
+    "static/js/2.65c28803.chunk.js.map": "/pavithranR.github.io/static/js/2.65c28803.chunk.js.map",
+    "index.html": "/pavithranR.github.io/index.html",
+    "static/css/main.d8005adf.chunk.css.map": "/pavithranR.github.io/static/css/main.d8005adf.chunk.css.map",
+    "static/js/2.65c28803.chunk.js.LICENSE.txt": "/pavithranR.github.io/static/js/2.65c28803.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3062aa84.js",
+    "static/js/2.65c28803.chunk.js",
+    "static/css/main.d8005adf.chunk.css",
+    "static/js/main.694771cf.chunk.js"
+  ]
+}
