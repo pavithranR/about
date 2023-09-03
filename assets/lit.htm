@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">   
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>UOW Library resource access</title>
+    <link href="public/ezproxy-login.css" rel="stylesheet" type="text/css" media="screen" />
+ <link href="../public/ezproxy-login.css" rel="stylesheet" type="text/css" media="screen" />
+ 
+ <script src="public/jquery.js" type="text/javascript"></script>
+	<script src="public/jquery.validate.min.js" type="text/javascript"></script>
+    </head>
+    <body id="ezproxy-login" onload="document.loginform.user.focus();">
+        <div id="ezproxy-content-wrap">
+            <div id="ezproxy-main-content">
+		<div id="header"><a href="https://www.uow.edu.au"><img src="https://libapps.s3.amazonaws.com/customers/579/images/uow-logo-libguides.jpg" alt="Go to the University of Wollongong"></a></div>
+		<h1>Log in to access UOW Library resources with EZproxy</h1>
+                <p>Access is available to current UOW students and staff.<!-- [<a href="https://www.uow.edu.au/its/accounts-access/ezproxy/"
+                    target="_blank" title="authentication system explained">Why do I need to log in?</a>]--></p>
+                <ul>
+                    <li>Students: use your SOLS username and password</li>
+                    <li>Staff: use your UOW username and password</li>                   
+                </ul>
+                <form action="/login" method="post" name="loginform" id="ezproxyloginform">
+                    <p><input type="hidden" name="url" value="https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?tp=&#38;arnumber=8848203&#38;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL2RvY3VtZW50Lzg4NDgyMDM=" /></p>
+                    <p>Username: <input type="text" id="user" name="user" size="25%" style="padding: 5px"></p>
+                    <p>Password:&nbsp; <input type="password" id="pass" name="pass" size="25%" style="padding: 5px"></p>
+                    <p><input type="submit" class="ezproxy-submit-button" id="submit" name="submit" value="Log in" /></p>
+                </form> 
+		<h2>Resources</h2>
+		<ul><li><a href="https://www.uow.edu.au/library/alumni-guests" target="_blank">Services for alumni &amp; guests</a> (including databases and other resources).</li></ul>
+                 <script>
+                    $(document).ready(function() {
+                                    $("#ezproxyloginform").validate({
+                                            rules: {
+                                                    user: {
+                                                        required: true,
+                                                        walkupLower: true,                                                       
+                                                    }
+                                            },
+                                            messages: {
+                                                    user: "This username cannot be used to access these resources.",
+                                            }
+                                    });                        
+                            jQuery.validator.addMethod("walkupLower", function(value, element){
+                            var login = $.trim(value);
+                            return this.optional(element) || !/alkup[0-9][0-9]$/i.test(login);
+                            }, "This username is not valid.");
+                    });
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
