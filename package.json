@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://pavithranr.github.io/portfolio",
+  "homepage": "https://pavithranr.github.io/about",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",

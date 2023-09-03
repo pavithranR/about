@@ -50,7 +50,28 @@ export default function TimelinePR() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
-            Feb 2020 - Present
+            Dec 2021 - Present
+          </Typography>
+        </TimelineOppositeContent>
+        <TimelineSeparator>
+          <TimelineDot color="primary">
+            <LaptopMacIcon />
+          </TimelineDot>
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>
+          {/* <Paper elevation={3} className={classes.paper}> */}
+            <Typography variant="h6" component="h1">
+              CGI Inc, Melbourne
+            </Typography>
+            <Typography>Software Engineer</Typography>
+          {/* </Paper> */}
+        </TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineOppositeContent>
+          <Typography variant="body2" color="textSecondary">
+            Feb 2020 - Dec 2021
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
@@ -104,7 +125,7 @@ export default function TimelinePR() {
         <TimelineContent>
           {/* <Paper elevation={3} className={classes.paper}> */}
             <Typography variant="h6" component="h1">
-              Larsen &amp; Toubro 
+              Larsen &amp; Toubro, India 
             </Typography>
             <Typography>System Analyst</Typography>
           {/* </Paper> */}

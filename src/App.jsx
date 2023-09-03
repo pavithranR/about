@@ -23,7 +23,7 @@ function App() {
        {/* <Portfolio/> */}
        <About/>
        <Attainment/>
-       <ContactPage/>
+       {/* <ContactPage/> */}
      </div>
     </div>
   );

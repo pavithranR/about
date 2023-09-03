@@ -7,9 +7,9 @@ export default function Attainment() {
       name: "Microsoft",
       title: "Azure Certificate",
       img: "assets/ai900.png",
-      link:"https://www.credly.com/badges/b7421a20-5bc3-4b51-9fdb-5539074f1656/public_url",
+      link:"https://learn.microsoft.com/api/credentials/share/en-us/pavithranr/A388E31445EFCBE8?sharingId=CF8D0FF4FCCC6DF3",
       desc:
-        "AI Fundamentals. More azure certificates are underway to keep me updated with the Microsoft tech stack.",
+        "Datascience Associate DP-100. More azure certificates are underway to keep me updated with the Microsoft tech stack.",
     },
     {
       id: 2,
