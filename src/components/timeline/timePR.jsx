@@ -64,7 +64,7 @@ export default function TimelinePR() {
             <Typography variant="h6" component="h1">
               CGI Inc, Melbourne
             </Typography>
-            <Typography>Software Engineer</Typography>
+            <Typography>Consultant</Typography>
           {/* </Paper> */}
         </TimelineContent>
       </TimelineItem>

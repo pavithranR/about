@@ -14,9 +14,9 @@ export default function About() {
         <div className="wrapper">
           <h2>Hello World;</h2>
           <p>
-          I am a masters graduate based in Sydney, and I worked as a .NET developer in India for 3 years. Currently, I am practising data science. I majorly focus on the backend and DevOps. Also, I can backtrack the front end glitches and fix them. I have used react, express js for this portfolio. My interest in web apps led me to act as a full-stack developer for the past years.
+          I am a masters graduate based in Melbourne, and I worked as a .NET developer in India for 3 years. Currently, I am practising data science. I majorly focus on the backend and DevOps. Also, I can backtrack the front end glitches and fix them. I have used react, express js for this portfolio. My interest in web apps led me to act as a full-stack developer for the past years.
 <br></br><br></br>
-My experience and versatile skills help me solve tricky code puzzles. Please use the contact form to know more about me.
+My experience and versatile skills help me solve tricky code puzzles. Let's share ideas and grow together professionally.
           </p>
 
         </div>
