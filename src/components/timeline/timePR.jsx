@@ -54,10 +54,10 @@ export default function TimelinePR() {
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineDot color="primary">
-            <LaptopMacIcon />
+        <TimelineDot color="primary" variant="outlined">
+            <WorkIcon />
           </TimelineDot>
-          <TimelineConnector />
+          <TimelineConnector className={classes.secondaryTail} />
         </TimelineSeparator>
         <TimelineContent>
           {/* <Paper elevation={3} className={classes.paper}> */}
