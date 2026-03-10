@@ -50,7 +50,7 @@ export default function TimelinePR() {
       <TimelineItem>
         <TimelineOppositeContent>
           <Typography variant="body2" color="textSecondary">
-            Dec 2021 - Feb 2026
+            Dec 2021 - Mar 2026
           </Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
