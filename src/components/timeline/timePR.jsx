@@ -85,7 +85,7 @@ export default function TimelinePR() {
             <Typography variant="h6" component="h1">
               Masters at UOW
             </Typography>
-            <Typography>Practising ML, Azure and DevOps</Typography>
+            <Typography>Practised ML, Azure and DevOps</Typography>
           {/* </Paper> */}
         </TimelineContent>
       </TimelineItem>
