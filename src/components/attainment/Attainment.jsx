@@ -9,7 +9,7 @@ export default function Attainment() {
       img: "assets/ai900.png",
       link:"https://learn.microsoft.com/api/credentials/share/en-us/pavithranr/A388E31445EFCBE8?sharingId=CF8D0FF4FCCC6DF3",
       desc:
-        "Datascience Associate DP-100. More azure certificates are underway to keep me updated with the Microsoft tech stack.",
+        "Microsoft Certified: Azure Data Scientist Associate (DP-100). Pursuing additional Azure certifications.",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ export default function Attainment() {
       img:"assets/github.png",
       link:"https://github.com/pavithranR",
       desc:
-        "The Machine learning and computer vision programs that I have done are listed in my GitHub",
+        "I occasionally share my machine learning and computer vision work on GitHub.",
         featured: false,
     }
   ];

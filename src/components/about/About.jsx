@@ -12,11 +12,11 @@ export default function About() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hello World;</h2>
+          <h2>Hi!</h2>
           <p>
-          I am a masters graduate based in Melbourne, and I worked as a .NET developer in India for 3 years. Currently, I am practising data science. I majorly focus on the backend and DevOps. Also, I can backtrack the front end glitches and fix them. I have used react, express js for this portfolio. My interest in web apps led me to act as a full-stack developer for the past years.
-<br></br><br></br>
-My experience and versatile skills help me solve tricky code puzzles. Let's share ideas and grow together professionally.
+          I’m a software developer with 4+ years of experience specializing in backend development, SCADA systems, and data-driven applications. My work focuses on building reliable systems using .NET and modern web technologies, while exploring data science and AI solutions to solve real-world problems. 
+          
+          <br></br><br></br>I enjoy working across the stack when needed and continuously improving systems through automation and smart engineering.
           </p>
 
         </div>
