@@ -56,7 +56,12 @@
     h2 {
       font-size: 30px;
     }
-    
+    .contact iframe {
+  border: none;
+  width: 100%;
+  min-height: 320px;
+  background: transparent;
+}
     form {
       width: 70%;
       height: 70%;

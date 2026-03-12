@@ -26,7 +26,7 @@ export default function Intro() {
           <h2>Hi! I'm</h2>
           <h1>Pavithran R</h1>
           <h3>
-            Aspiring <span ref={textRef}></span>
+            <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#skill">
